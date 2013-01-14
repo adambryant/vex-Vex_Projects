@@ -1,0 +1,10 @@
+*~
+*.asm
+*.o
+*.lst
+*.map
+*.cof
+*.cod
+*.hex
+*.err
+
