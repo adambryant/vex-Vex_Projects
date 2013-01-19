@@ -28,6 +28,32 @@ ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
 DebugOptions=-D__DEBUG
 [File002]
+Location=C:\Dev\Vex_Projects\Drive1\user_code.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\mcc18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|user_code.c|pid.c||<obj>||<lib>|C:\Dev\Vex_Projects\my_lib\my_lib.lib|C:\Dev\Vex_Projects\base_lib\base_lib.lib|C:\Dev\Vex_Projects\lib\vex_24.lib||<lkr>|C:\Dev\Vex_Projects\lib\18f8520.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File003]
+Location=C:\Dev\Vex_Projects\Drive1\pid.o
+Folder=Intermediary
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\mcc18\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\mcc18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|user_code.c|pid.c||<obj>||<lib>|C:\Dev\Vex_Projects\my_lib\my_lib.lib|C:\Dev\Vex_Projects\base_lib\base_lib.lib|C:\Dev\Vex_Projects\lib\vex_24.lib||<lkr>|C:\Dev\Vex_Projects\lib\18f8520.lkr||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File004]
 Location=C:\Dev\PIC_Projects\Drive1\Drive1.cof
 Folder=Output
 DeviceName=PIC18F8520
@@ -40,7 +66,7 @@ SuiteArgsString=
 ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
 TraceCmdString=
 DebugOptions=/z__MPLAB_DEBUG=1
-[File003]
+[File005]
 Location=C:\Dev\PIC_Projects\Drive1\Drive1.hex
 Folder=Output
 DeviceName=PIC18F8520
@@ -49,6 +75,32 @@ LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
 LanguageToolLocation=C:\mcc18\bin\mplink.exe
 PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\mcc18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
 SOLK=<src>|user_code.c|pid.c||<obj>||<lib>|C:\Dev\PIC_Projects\my_lib\my_lib.lib|C:\Dev\PIC_Projects\base_lib\base_lib.lib|C:\Dev\PIC_Projects\lib\vex_24.lib||<lkr>|C:\Dev\PIC_Projects\lib\18f8520.lkr||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[File006]
+Location=C:\Dev\Vex_Projects\Drive1\Drive1.cof
+Folder=Output
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\mcc18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\mcc18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|user_code.c|pid.c||<obj>||<lib>|C:\Dev\Vex_Projects\my_lib\my_lib.lib|C:\Dev\Vex_Projects\base_lib\base_lib.lib|C:\Dev\Vex_Projects\lib\vex_24.lib||<lkr>|C:\Dev\Vex_Projects\lib\18f8520.lkr||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[File007]
+Location=C:\Dev\Vex_Projects\Drive1\Drive1.hex
+Folder=Output
+DeviceName=PIC18F8520
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\mcc18\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|C:\mcc18\h||$(LIBDIR)|C:\mcc18\lib||$(LKRDIR)||
+SOLK=<src>|user_code.c|pid.c||<obj>||<lib>|C:\Dev\Vex_Projects\my_lib\my_lib.lib|C:\Dev\Vex_Projects\base_lib\base_lib.lib|C:\Dev\Vex_Projects\lib\vex_24.lib||<lkr>|C:\Dev\Vex_Projects\lib\18f8520.lkr||
 SuiteArgsString=
 ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
 TraceCmdString=

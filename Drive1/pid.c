@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 #define kP	40
-#define kI	12
-#define kD	1000
+#define kI	13
+#define kD	2500
 #define MAX_ERROR 200
 
 int pidAdjust( int sensor, int setpoint )

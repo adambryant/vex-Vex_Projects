@@ -2,7 +2,7 @@
 MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
 Version=1.0
 [File000]
-Location=C:\Dev\PIC_Projects\my_lib\controller.o
+Location=C:\Dev\Vex_Projects\my_lib\controller.o
 Folder=Intermediary
 DeviceName=PIC18F8520
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
@@ -15,7 +15,7 @@ ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
 DebugOptions=-D__DEBUG
 [File001]
-Location=C:\Dev\PIC_Projects\my_lib\drivetrain.o
+Location=C:\Dev\Vex_Projects\my_lib\drivetrain.o
 Folder=Intermediary
 DeviceName=PIC18F8520
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
@@ -28,7 +28,7 @@ ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
 DebugOptions=-D__DEBUG
 [File002]
-Location=C:\Dev\PIC_Projects\my_lib\gyro.o
+Location=C:\Dev\Vex_Projects\my_lib\gyro.o
 Folder=Intermediary
 DeviceName=PIC18F8520
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
@@ -41,7 +41,7 @@ ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
 DebugOptions=-D__DEBUG
 [File003]
-Location=C:\Dev\PIC_Projects\my_lib\motor.o
+Location=C:\Dev\Vex_Projects\my_lib\motor.o
 Folder=Intermediary
 DeviceName=PIC18F8520
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
@@ -54,7 +54,7 @@ ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
 TraceCmdString=
 DebugOptions=-D__DEBUG
 [File004]
-Location=C:\Dev\PIC_Projects\my_lib\my_lib.lib
+Location=C:\Dev\Vex_Projects\my_lib\my_lib.lib
 Folder=Output
 DeviceName=PIC18F8520
 LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}

@@ -55,10 +55,10 @@ file_000=user_code.c
 file_001=pid.c
 file_002=user_code.h
 file_003=pid.h
-file_004=C:\Dev\PIC_Projects\my_lib\my_lib.lib
-file_005=C:\Dev\PIC_Projects\base_lib\base_lib.lib
-file_006=C:\Dev\PIC_Projects\lib\vex_24.lib
-file_007=C:\Dev\PIC_Projects\lib\18f8520.lkr
+file_004=C:\Dev\Vex_Projects\my_lib\my_lib.lib
+file_005=C:\Dev\Vex_Projects\base_lib\base_lib.lib
+file_006=C:\Dev\Vex_Projects\lib\vex_24.lib
+file_007=C:\Dev\Vex_Projects\lib\18f8520.lkr
 [SUITE_INFO]
 suite_guid={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 suite_state=
